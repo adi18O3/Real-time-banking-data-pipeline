@@ -1,4 +1,5 @@
-pyspark==3.5.0
-boto3
-pyyaml
+pyspark
+kafka-python
 pandas
+boto3
+faker
