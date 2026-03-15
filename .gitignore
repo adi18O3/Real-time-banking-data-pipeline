@@ -1,0 +1,91 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+develop-eggs/
+.installed.cfg
+lib/
+lib64/
+venv/
+.venv/
+env/
+.env
+ENV/
+virtualenv/
+
+# PySpark / Spark
+spark-warehouse/
+derby.log
+metastore_db/
+*.crc
+_SUCCESS
+_temporary/
+.spark-history/
+spark-events/
+
+# Kafka / Hadoop
+kafka-logs/
+zookeeper/
+*.log
+*.out
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb
+
+# IDE
+.vscode/
+.idea/
+*.iml
+*.iws
+*.ipr
+.project
+.classpath
+.settings/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Environment Variables
+.env
+.env.*
+*.env
+
+# Data & Output Files
+*.csv
+*.json
+*.parquet
+*.avro
+*.orc
+data/
+output/
+checkpoints/
+
+# Logs
+logs/
+*.log
+
+# Docker
+.dockerignore
+docker-compose.override.yml
+
+# Secrets & Credentials
+*.pem
+*.key
+*.cert
+secrets/
+credentials/
+
+PROJECT_*

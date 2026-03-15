@@ -31,6 +31,7 @@ transactions = json_df.select(
 # Write streaming data to Parquet data lake
 query = transactions.writeStream \
     .format("parquet") \
+    .partitionBy("location") \
     .option("path", "data_lake/transactions") \
     .option("checkpointLocation", "data_lake/checkpoints") \
     .outputMode("append") \
